@@ -20,3 +20,11 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Estilização das imagens do carrossel */
+.carousel-img {
+    max-width: 300px; /* Define a largura máxima desejada */
+    max-height: 200px; /* Define a altura máxima desejada */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    object-fit: contain; /* Mantém as proporções da imagem */
+}
