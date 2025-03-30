@@ -45,6 +45,12 @@ header {
     object-fit: contain;
 }
 
+/* Estilização do texto do carrossel */
+.carousel-text {
+    color: black; /* Cor da fonte preta */
+    padding: 10px;
+}
+
 /* Estilização do carrinho */
 #carrinho-lista .d-flex {
     padding: 10px 0;
