@@ -12,7 +12,7 @@
     <header class="bg-primary text-white p-3">
         <h1 class="text-center">Minimercado do Diego</h1>
         <p class="text-center">Seu mercado virtual para compras rápidas</p>
-        <p class="nav justify-content-center">
+        <nav class="nav justify-content-center">
             <a class="nav-link text-white" href="index.html">Início</a>
             <a class="nav-link text-white" href="produtos.html">Produtos</a>
             <a class="nav-link text-white" href="servicos.html">Serviços</a>
@@ -23,20 +23,41 @@
     <section class="container mt-4">
         <h2>Produtos</h2>
         <div class="row">
+            <!-- Frutas e Verduras -->
             <div class="col-md-4 produto">
                 <h3>Frutas e Verduras</h3>
-                <p><img src="Imagens/maca.jpg" alt="Maçã fresca" class="img-fluid"> Maçã - R$ 2,00/kg - Maçãs frescas e crocantes.</p>
-                <p><img src="Imagens/cenoura.jpg" alt="Cenoura orgânica" class="img-fluid"> Cenoura - R$ 3,50/kg - Orgânica e nutritiva.</p>
+                <div class="produto-item">
+                    <img src="imagens/maca.jpg" alt="Maçã fresca" class="img-fluid produto-img">
+                    <p>Maçã - R$ 2,00/kg - Maçãs frescas e crocantes.</p>
+                </div>
+                <div class="produto-item">
+                    <img src="imagens/cenoura.jpg" alt="Cenoura orgânica" class="img-fluid produto-img">
+                    <p>Cenoura - R$ 3,50/kg - Orgânica e nutritiva.</p>
+                </div>
             </div>
+            <!-- Produtos Alimentícios Não Perecíveis -->
             <div class="col-md-4 produto">
                 <h3>Produtos Alimentícios Não Perecíveis</h3>
-                <p><img src="Imagens/arroz.jpg" alt="Arroz tipo 1" class="img-fluid"> Arroz 5kg - R$ 20,00 - Tipo 1, alta qualidade.</p>
-                <p><img src="Imagens/feijao.jpg" alt="Feijão preto" class="img-fluid"> Feijão 1kg - R$ 8,00 - Preto, selecionado.</p>
+                <div class="produto-item">
+                    <img src="imagens/arroz.jpg" alt="Arroz tipo 1" class="img-fluid produto-img">
+                    <p>Arroz 5kg - R$ 20,00 - Tipo 1, alta qualidade.</p>
+                </div>
+                <div class="produto-item">
+                    <img src="imagens/feijao.jpg" alt="Feijão preto" class="img-fluid produto-img">
+                    <p>Feijão 1kg - R$ 8,00 - Preto, selecionado.</p>
+                </div>
             </div>
+            <!-- Produtos de Higiene e Limpeza -->
             <div class="col-md-4 produto">
                 <h3>Produtos de Higiene e Limpeza</h3>
-                <p><img src="Imagens/sabao.jpg" alt="Sabão em pó" class="img-fluid"> Sabão em pó 1kg - R$ 12,00 - Roupas limpas e perfumadas.</p>
-                <p><img src="Imagens/detergente.jpg" alt="Detergente líquido" class="img-fluid"> Detergente 500ml - R$ 3,00 - Eficiente na limpeza.</p>
+                <div class="produto-item">
+                    <img src="imagens/sabao.jpg" alt="Sabão em pó" class="img-fluid produto-img">
+                    <p>Sabão em pó 1kg - R$ 12,00 - Roupas limpas e perfumadas.</p>
+                </div>
+                <div class="produto-item">
+                    <img src="imagens/detergente.jpg" alt="Detergente líquido" class="img-fluid produto-img">
+                    <p>Detergente 500ml - R$ 3,00 - Eficiente na limpeza.</p>
+                </div>
             </div>
         </div>
     </section>
