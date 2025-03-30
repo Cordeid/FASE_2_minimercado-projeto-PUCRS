@@ -31,18 +31,23 @@ header {
 
 /* Estilização das imagens dos produtos */
 .produto-img {
-    max-width: 200px; /* Define a largura máxima das imagens */
-    max-height: 150px; /* Define a altura máxima das imagens */
-    object-fit: contain; /* Mantém as proporções das imagens */
-    margin-bottom: 10px; /* Espaço entre a imagem e o texto */
+    max-width: 200px;
+    max-height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
 }
 
-/* Estilização das imagens do carrossel (mantido do código anterior) */
+/* Estilização das imagens do carrossel */
 .carousel-img {
     max-width: 300px;
     max-height: 200px;
     margin: 0 auto;
     object-fit: contain;
+}
+
+/* Estilização do carrinho */
+#carrinho-lista .d-flex {
+    padding: 10px 0;
 }
 
 /* Rodapé */
