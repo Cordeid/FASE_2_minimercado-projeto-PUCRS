@@ -1,0 +1,22 @@
+/* Estilização geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Ajustes no cabeçalho */
+header {
+    margin-bottom: 20px;
+}
+
+/* Estilização dos produtos */
+.produto {
+    margin: 20px 0;
+}
+
+/* Rodapé */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
